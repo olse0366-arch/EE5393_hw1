@@ -68,7 +68,7 @@ int simulate_multiply(int W0, int X0){
     //1 W -> D                slowest
     //2 D + X -> D + X' + Z   fastest
     //3 X' -> X               fast   not techically required
-    //4 D -> ∅                slow
+    //4 D -> ∅                fast
 
     int W = W0;
     int X = X0;
