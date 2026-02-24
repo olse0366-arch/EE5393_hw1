@@ -67,7 +67,7 @@ int simulate_log2(int Y0){
 int simulate_multiply(int W0, int X0){
     //1 W -> D                slowest
     //2 D + X -> D + X' + Z   fastest
-    //3 X' -> X               fast
+    //3 X' -> X               fast   not techically required
     //4 D -> ∅                slow
 
     int W = W0;
